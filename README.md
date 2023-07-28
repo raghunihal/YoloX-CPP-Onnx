@@ -7,3 +7,6 @@ Equipped with some of the latest advanced detection techniques, YOLO-X achieves 
 Add the model yolox_darknet.onnx in config_files folder 
 
 
+# Compilation Command
+g++ yoloX.cpp -o yoloX `pkg-config --cflags --libs opencv4`
+
